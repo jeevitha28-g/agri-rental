@@ -54,8 +54,85 @@ Agri-Access is a smart agriculture rental platform built to connect farmers with
 ### 🚀 Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/agri-access.git
-cd agri-access
+git clone https://github.com/jeevitha28-g/agri-rental.git
+cd agri-rental
 ```
 
 ### 🚀 Step 2: Create a Virtual Environment (Recommended)
+
+```bash
+python -m venv venv
+venv\Scripts\activate      # For Windows
+# OR
+source venv/bin/activate   # For Linux/Mac
+```
+
+### 🚀 Step 3: Install Required Python Packages
+
+```bash
+pip install -r requirements.txt
+```
+
+If requirements.txt is not available, install manually:
+
+```bash
+pip install flask mysql-connector-python scikit-learn pandas numpy matplotlib fuzzywuzzy python-Levenshtein
+```
+
+### 🚀 Step 4: Set Up MySQL Database
+
+1. Open MySQL Workbench or phpMyAdmin.
+   
+2. Create a database:
+   
+   ```bash
+   CREATE DATABASE agri_rental;
+   ```
+3. Import the SQL schema (if you have one), or run provided table creation scripts.
+
+### 🚀 Step 5: Update Database Connection (if needed)
+
+In app.py, find this section:
+```bash
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="root",
+  passwd="",
+  database="agri_rental"
+)
+```
+🔁 Modify user, passwd, and database as per your local MySQL setup.
+
+### 🚀 Step 6: Run the Application
+
+```bash
+python main.py
+```
+
+### 🚀 Step 7: Start the WAMP Server
+
+1. Start WAMP Server
+- Open the WAMP control panel.
+- Wait until the WAMP icon in the taskbar turns green (this means Apache and MySQL are running).
+
+2. Ensure MySQL Is Active
+- Open phpMyAdmin via WAMP (usually at http://localhost/phpmyadmin) to verify MySQL is working.
+- Confirm that your agri_rental database exists (or create/import it if needed).
+
+### 🚀 Step 8: Final Step
+
+Open your browser and go to:
+
+```bash
+http://localhost:5000
+```
+
+---
+
+## License
+All rights reserved © 2025 Jeevitha G — No part of this project may be used, copied, modified, or distributed without explicit written permission.
+
+---
+
+## Contact
+Made with ❤️ by Jeevitha (https://github.com/jeevitha28-g)
