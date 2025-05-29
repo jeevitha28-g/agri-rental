@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+venv/
+env/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Flask stuff
+instance/
+.webassets-cache
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and DB
+*.log
+*.sqlite3
+
+# Test cache
+.pytest_cache/
+.coverage
+
+# Media uploads
+static/upload/*
+
+# Secrets
+.env
+.env.*
