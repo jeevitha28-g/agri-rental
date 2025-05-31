@@ -122,7 +122,10 @@ python main.py
 ### 🚀 Step 8: Final Step
 
 Open your browser and go to:
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6d71de577f345ba67032e998fc108ba3909bb769
 ```bash
 http://localhost:5000
 ```
@@ -135,4 +138,10 @@ All rights reserved © 2025 Jeevitha G — No part of this project may be used, 
 ---
 
 ## Contact
+<<<<<<< HEAD
 Made with ❤️ by Jeevitha (https://github.com/jeevitha28-g)
+=======
+Made with ❤️ by Jeevitha (https://github.com/jeevitha28-g)
+
+
+>>>>>>> 6d71de577f345ba67032e998fc108ba3909bb769
