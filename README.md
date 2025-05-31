@@ -128,32 +128,8 @@ http://localhost:5000
 
 ---
 
-## Folder Structure
-```bash
-agri-rental/
-│
-├── database/
-│   └── agri_rental.sql
-│
-├── sample/
-|   └── agri_rental.sql
-|
-├── src/
-│   ├── components/
-│   │   ├── WeatherCard.jsx
-│   │   └── SearchBar.jsx
-│   ├── App.js
-│   ├── App.css
-│   └── index.js
-│
-├── package.json
-└── README.md
-```
-
----
-
 ## License
-This project is licensed under the MIT License - feel free to use and modify!
+All rights reserved © 2025 Jeevitha G — No part of this project may be used, copied, modified, or distributed without explicit written permission.
 
 ---
 
