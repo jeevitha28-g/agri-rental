@@ -122,10 +122,7 @@ python main.py
 ### 🚀 Step 8: Final Step
 
 Open your browser and go to:
-<<<<<<< HEAD
 
-=======
->>>>>>> 6d71de577f345ba67032e998fc108ba3909bb769
 ```bash
 http://localhost:5000
 ```
