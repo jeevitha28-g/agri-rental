@@ -135,6 +135,6 @@ All rights reserved © 2025 Jeevitha G — No part of this project may be used, 
 ---
 
 ## Contact
-Made with ❤️ by Jeevitha (https://github.com/jeevitha28-g)
+Made with 💙 by [Jeevitha] (https://github.com/jeevitha28-g)
 
 
