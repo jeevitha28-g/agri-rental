@@ -31,7 +31,6 @@ Agri-Access is a smart agriculture rental platform built to connect farmers with
 
 ### Tools
 - Visual Studio Code / PyCharm
-- MySQL Workbench
 - Postman
 
 ### AI & Search
